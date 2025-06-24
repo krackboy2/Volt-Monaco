@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер редактора занимает всю доступную высоту и ширину */
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.monaco-editor .suggest-widget {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Время и эффект анимации */
+}
+
+.monaco-editor .suggest-widget.visible {
+    opacity: 1; /* Плавное появление */
+}
+
