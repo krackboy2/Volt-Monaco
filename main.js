@@ -365,12 +365,12 @@ monaco.editor.defineTheme('Volt', {
 
 
 editor = monaco.editor.create(document.getElementById("container"), {
-    value: ``,
+    value: `-- getvoltage.xyz`,
     language: 'lua',
     theme: 'Volt', // Default initial theme
     smoothScrolling: true,
     scrollBeyondLastLine: false,
-    minimap: { enabled: true },
+    minimap: { enabled: false },
     renderWhitespace: 'none',
     wordWrap: 'off',
     fontLigatures: false,
