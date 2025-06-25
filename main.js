@@ -325,7 +325,7 @@ monaco.editor.defineTheme('Volt', {
     inherit: true,
     rules: [
         { "token": "", "foreground": "d4d4d4", "background": "272727" }, // Main background
-        { "token": "comment", "foreground": "559599" }, // Comments in green
+        { "token": "comment", "foreground": "6c6c7a" }, // Comments in green
         { "token": "keyword", "foreground": "569cd6" }, // Keywords in blue
         { "token": "number", "foreground": "b5cea8" }, // Numbers in a light greenish color
         { "token": "string", "foreground": "ce9178" }, // Strings in a reddish color
