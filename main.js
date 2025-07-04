@@ -325,7 +325,7 @@ monaco.editor.defineTheme('Volt', {
     inherit: true,
     rules: [
         { "token": "", "foreground": "d4d4d4", "background": "272727" }, // Main background
-        { "token": "comment", "foreground": "6c6c7a" }, // Comments in green
+        { "token": "comment", "foreground": "7C7C7C" }, // Comments in green
         { "token": "keyword", "foreground": "569cd6" }, // Keywords in blue
         { "token": "number", "foreground": "b5cea8" }, // Numbers in a light greenish color
         { "token": "string", "foreground": "ce9178" }, // Strings in a reddish color
@@ -335,8 +335,8 @@ monaco.editor.defineTheme('Volt', {
     ],
     colors: {
         "editor.foreground": "#d4d4d4",                 // Text color
-        "editor.background": "#181a1b",                  // Updated background color
-        "editor.selectionBackground": "#3c799a5a",         // Selection background color
+        "editor.background": "#222222",                  // Updated background color
+        "editor.selectionBackground": "#343638",         // Selection background color
         "editor.lineHighlightBackground": "#232729",     // Updated highlighting of the current line
         "editorCursor.foreground": "#aeafad",            // Cursor color
         "editorWhitespace.foreground": "#404040",        // Whitespace markers color
@@ -344,7 +344,7 @@ monaco.editor.defineTheme('Volt', {
         "editorIndentGuide.activeBackground": "#707070", // Active indent guide color
 
         // Tooltip settings for hover and IntelliSense popups
-        "editorHoverWidget.background": "#181a1b",       // Updated background color of the hover widget (tooltips)
+        "editorHoverWidget.background": "#222222",       // Updated background color of the hover widget (tooltips)
         "editorHoverWidget.foreground": "#d4d4d4",       // Foreground color for text in tooltips
         "editorHoverWidget.border": "#3a3d41",           // Border color of the hover widget
         "editorSuggestWidget.background": "#2e2e2e",     // Background for IntelliSense suggestions
