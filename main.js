@@ -337,7 +337,7 @@ monaco.editor.defineTheme('Volt', {
         "editor.foreground": "#d4d4d4",                 // Text color
         "editor.background": "#222222",                  // Updated background color
         "editor.selectionBackground": "#343638A5",         // Selection background color
-        "editor.lineHighlightBackground": "#232729",     // Updated highlighting of the current line
+        "editor.lineHighlightBackground": "#292929",     // Updated highlighting of the current line
         "editorCursor.foreground": "#aeafad",            // Cursor color
         "editorWhitespace.foreground": "#404040",        // Whitespace markers color
         "editorIndentGuide.background": "#404040",       // Indent guide lines color
